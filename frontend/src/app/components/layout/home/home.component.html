@@ -1,0 +1,19 @@
+<mat-toolbar color="primary">
+  <span>Products</span>
+  <span class="spacer"></span>
+  <button mat-icon-button (click)="logout()">
+    <mat-icon>exit_to_app</mat-icon>
+  </button>
+</mat-toolbar>
+
+<div class="container">
+  <div class="button-container">
+    <input type="file" (change)="onFileSelected($event)" />
+    <button mat-raised-button color="primary" (click)="onUpload()">
+      Upload
+    </button>
+    <button mat-raised-button color="accent" (click)="onDownload()">
+      Download
+    </button>
+  </div>
+</div>

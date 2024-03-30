@@ -1,0 +1,3 @@
+export enum OperationStatus {
+    SUCCESS = "SUCCESS", FAILURE = "FAILURE", FORBIDDEN = "FORBIDDEN", NOT_FOUND = "NOT_FOUND"
+}

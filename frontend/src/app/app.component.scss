@@ -1,0 +1,36 @@
+.navbar {
+    background-color: rgb(36, 113, 163); /* Change the RGB values for a different color */
+    padding: 7px;
+  
+    .navbar-container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1200px;
+      align-items: center;
+      margin: 0 auto;
+  
+      .title {
+        color: aquamarine;
+        margin: 0; /* Reset margin for h2 */
+      }
+  
+      nav {
+        .nav-links {
+          display: flex;
+          gap: 25px;
+  
+          a {
+            text-decoration: none;
+            color: white;
+            padding: 8px; /* Adds some padding around the links */
+            border-radius: 5px; /* Adds rounded corners */
+  
+            &:hover {
+              background-color: rgba(255, 255, 255, 0.1); /* Light background on hover */
+            }
+          }
+        }
+      }
+    }
+  }
+  

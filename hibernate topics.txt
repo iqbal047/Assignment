@@ -1,0 +1,14 @@
+1. JPQL Query
+2. native query
+3. Data JPA method name query
+4. Jakarta persistent annotations
+
+
+
+OrderItems
+Sales
+Payments
+Shipments
+Inventory
+Notifications
+AuditTrail
